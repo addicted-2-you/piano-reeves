@@ -1,0 +1,4 @@
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Times New Roman', Times, serif}button{font-family:'Times New Roman', Times, serif}#root{height:100vh;overflow:hidden}.workspace{height:100%}.keyboard-container{height:100%;display:flex;justify-content:center;align-items:center}.keyboard{position:relative;background-color:#000000;padding:0.35rem;padding-left:0}.key{border:none;cursor:pointer}.key.white-key{height:30rem;margin-left:0.35rem;width:5rem;background-color:#ffffff}.key.white-key:hover{background-color:#efefef}.key.white-key.--active{background-color:#e0e0e0}.key.black-key{position:absolute;top:0;height:19rem;margin-left:-1.1rem;width:2.5rem;color:#ffffff;background-color:#000000}.key.black-key:hover{background-color:#202020}.key.black-key.--active{background-color:#404040}.key:focus{outline:none}
+
+
+/*# sourceMappingURL=index.css.map*/
