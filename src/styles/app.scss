@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#root {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.workspace {
+  height: 100%;
+}
+
+.keyboard-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

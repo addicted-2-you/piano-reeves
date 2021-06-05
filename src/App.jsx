@@ -1,9 +1,28 @@
 import React from 'react';
 
+import { startListenKeyDown, stopListenKeyDown } from './keyboard-listeners/keydown-listener';
+import { startListenKeyUp, stopListenKeyUp } from './keyboard-listeners/keyup-listener';
+
+import Keyboard from './widgets/Keyboard';
+
 function App() {
+  React.useEffect(() => {
+    startListenKeyDown();
+    startListenKeyUp();
+
+    return () => {
+      stopListenKeyDown();
+      stopListenKeyUp();
+    };
+  });
+
   return (
     <>
-      <h1>Piano Reeves</h1>
+      <main className="workspace">
+        <div className="keyboard-container">
+          <Keyboard />
+        </div>
+      </main>
     </>
   );
 }

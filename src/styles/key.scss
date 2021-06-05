@@ -1,0 +1,41 @@
+.key {
+  border: none;
+  cursor: pointer;
+
+  &.white-key {
+    height: 30rem;
+    margin-left: 0.35rem;
+    width: 5rem;
+    background-color: #ffffff;
+
+    &:hover {
+      background-color: #efefef;
+    }
+
+    &.--active {
+      background-color: #e0e0e0;
+    }
+  }
+
+  &.black-key {
+    position: absolute;
+    top: 0;
+    height: 19rem;
+    margin-left: -1.1rem;
+    width: 2.5rem;
+    color: #ffffff;
+    background-color: #000000;
+
+    &:hover {
+      background-color: #202020;
+    }
+
+    &.--active {
+      background-color: #404040;
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
