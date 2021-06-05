@@ -5,13 +5,12 @@
     "baseUrl": ".",
     "module": "commonjs",
     "paths": {
-      "assets/*": ["./src/assets/*"],
       "components/*": ["./src/components/*"],
       "constants/*": ["./src/constants/*"],
-      "dictionaries/*": ["./src/dictionaries/*"],
-      "models/*": ["./src/models/*"],
+      "hooks/*": ["./src/hooks/*"],
       "store/*": ["./src/store/*"],
-      "utils/*": ["./src/utils/*"]
+      "utils/*": ["./src/utils/*"],
+      "widgets/*": ["./src/widgets/*"]
     }
   },
   "include": ["src"],
