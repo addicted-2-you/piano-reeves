@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "strict": true,
+    "baseUrl": ".",
+    "module": "commonjs",
+    "paths": {
+      "assets/*": ["./src/assets/*"],
+      "components/*": ["./src/components/*"],
+      "constants/*": ["./src/constants/*"],
+      "dictionaries/*": ["./src/dictionaries/*"],
+      "models/*": ["./src/models/*"],
+      "store": ["./src/store/index.ts"],
+      "store/*": ["./src/store/*"],
+      "utils": ["./src/utils/index.ts"],
+      "utils/*": ["./src/utils/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
