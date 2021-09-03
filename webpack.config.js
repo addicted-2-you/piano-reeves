@@ -9,14 +9,15 @@ module.exports = {
   devtool: 'source-map',
 
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.ts', '.jsx'],
     alias: {
+      assets: path.resolve(__dirname, './src/assets'),
       components: path.resolve(__dirname, './src/components'),
       constants: path.resolve(__dirname, './src/constants'),
-      hooks: path.resolve(__dirname, './src/hooks'),
+      dictionaries: path.resolve(__dirname, './src/dictionaries'),
+      models: path.resolve(__dirname, './src/models'),
       store: path.resolve(__dirname, './src/store'),
       utils: path.resolve(__dirname, './src/utils'),
-      widgets: path.resolve(__dirname, './src/widgets'),
     },
   },
 
